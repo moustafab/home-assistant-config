@@ -52,9 +52,6 @@ logbook:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-  - platform: yr
 
 # Text to speech
 tts:
@@ -63,7 +60,8 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-
-media_player:
-  - platform: sonos
-    hosts: 192.168.1.159
+sensor: !include devices/sensors.yaml
+light: !include devices/lights.yaml
+media_player: !include devices/media_players.yaml
+alarm_control_panel: !include devices/alarm.yaml
+camera: !include devices/cameras.yaml

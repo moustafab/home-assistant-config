@@ -1,0 +1,3 @@
+# Weather prediction
+- platform: yr
+- platform: random

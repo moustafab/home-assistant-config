@@ -1,0 +1,11 @@
+- platform: sonos
+  hosts:
+        - 192.168.1.159
+        - 192.168.1.160
+        - 192.168.1.161
+- platform: samsungtv
+  host: 192.168.1.197
+  mac: 24:4b:03:d8:51:1f
+  port: 8001
+  name: livingroom
+  timeout: 60

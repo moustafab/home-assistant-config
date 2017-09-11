@@ -1,0 +1,3 @@
+platform: alarmdotcom
+username: !secret alarm_username
+password: !secret alarm_password
